@@ -23,9 +23,9 @@ export const TRS_Intelligent_compund = (props) => {
                     <img src="/slideshow1.jpg " width="100%" />
                 </div>
                 <div className="container-caption">
-                    <div class="carousel-captions">
-                        <div class="carousel-captions2">
-                            <div class="columbn"><h1>TRS KNOW-HOW</h1><h2>YOUR PARTNER FOR SMART SOLUTIONS</h2><p>TRS is a primary source for new material innovation, modifying, revitalising, and even replacing materials with activated rubber powders.&nbsp;</p><p>TRS harnesses gateway technologies and deep compounding experience to develop customised products catered to your specific field of application.</p><p>
+                    <div className="carousel-captions">
+                        <div className="carousel-captions2">
+                            <div className="columbn"><h1>TRS KNOW-HOW</h1><h2>YOUR PARTNER FOR SMART SOLUTIONS</h2><p>TRS is a primary source for new material innovation, modifying, revitalising, and even replacing materials with activated rubber powders.&nbsp;</p><p>TRS harnesses gateway technologies and deep compounding experience to develop customised products catered to your specific field of application.</p><p>
                                 <img alt="trs Intelligent Compounding"  src="/p9.png" /></p>
                             </div>
                         </div>
@@ -33,24 +33,24 @@ export const TRS_Intelligent_compund = (props) => {
                 </div>
             </div>
 
-            <section class="section-teaser">
-                <div class="mycontainer">
-                    <div class="myrow">
-                        <article class="col33">
+            <section className="section-teaser">
+                <div className="mycontainer">
+                    <div className="myrow">
+                        <article className="col33">
                             <a href="/en/intelligent-compounding/our-expertise">
-                                <img class="imgfluid" src="/smartintelligent2.jpg" alt="" />
+                                <img className="imgfluid" src="/smartintelligent2.jpg" alt="" />
                             </a>
                             <h1>CREATING PERFORMING MATERIALS</h1>
                             <h2>OUR EXPERTISE</h2>
                             <p>TyreXol<sup>TM</sup> is what you get if you mix Swiss ingenuity in engineering, biotechnology and application expertise together and apply them to tyre recycling. We work closely with our partners to develop solutions that are adapted to local market needs and conditions.</p>
-                            <footer> <a class="btn-outline-secondary" href="/en/intelligent-compounding/our-expertise">Our expertise</a>
+                            <footer> <a className="btn-outline-secondary" href="/en/intelligent-compounding/our-expertise">Our expertise</a>
                             </footer>
                         </article>
-                        <article class="col44">
+                        <article className="col44">
                             <a href="/en/intelligent-compounding/market-applications">
-                                <img class="imgfluid" src="/smartintelligent3.jpg" alt="" typeof="foaf:Image" />
+                                <img className="imgfluid" src="/smartintelligent3.jpg" alt="" typeof="foaf:Image" />
                             </a><h1>The proof is<br />in the powders</h1><h2>INNOVATIVE. VERSATILE. ECOLOGICALLY SOUND.</h2><p>New materials enhanced with TyreXol™ can be applied to boost functionality and performance across a wide range of industries, from building and construction, to automotive and transportation, footwear, 3D printing, and beyond.</p>
-                            <footer> <span class="btn-outline-secondary" >Markets Applications</span>
+                            <footer> <span className="btn-outline-secondary" >Markets Applications</span>
                             </footer> </article>
                     </div>
                 </div>

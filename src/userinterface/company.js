@@ -37,8 +37,8 @@ export default function Company(props) {
 
             </div>
 
-            <section id="section-about" class="sectionOne">
-                <div class="containerr">
+            <section id="section-about" className="sectionOne">
+                <div className="containerr">
                     <h1>About Us</h1>
                     <p>
                         <br />Tyre Recycling Solutions SA (TRS) was founded in 2013 in Switzerland with the aim of enabling sustainable recycling of the materials contained in scrap tyres. TRS has developed Swiss proprietary technologies to process scrap tyres and deliver output products with significant value-in-use.</p>
@@ -57,24 +57,24 @@ export default function Company(props) {
                 </div>
             </section>
 
-            <section id="sectionteam" class="sectionteam">
-                <div class="container2">
+            <section id="sectionteam" className="sectionteam">
+                <div className="container2">
                     <h1>Our team</h1>
                     <h2>OUR ASSETS ARE<br />OUR EXPERIENCE<br />AND CREATIVITY</h2>
-                    <div class="row1">
+                    <div className="row1">
 
-                        <article class="col1">
-                            <div class="imgw">
-                                <img class="imgd" src='/img1.png' width="208" height="208" alt="C, CEO" typeof="foaf:Image" />
+                        <article className="col1">
+                            <div className="imgw">
+                                <img className="imgd" src='/img1.png' width="208" height="208" alt="C, CEO" typeof="foaf:Image" />
                             </div>
                             <h1> CEO</h1>
                             <h2>Staffan Ahlgren</h2>
                         </article>
 
 
-                        <article class="col1">
-                            <div class="imgw">
-                                <img class="imgd" src='/img4.png' width="208" height="208" alt="Didier Dietrich, CTO" typeof="foaf:Image" />
+                        <article className="col1">
+                            <div className="imgw">
+                                <img className="imgd" src='/img4.png' width="208" height="208" alt="Didier Dietrich, CTO" typeof="foaf:Image" />
                             </div>
                             <h1> CTO</h1>
                             <h2>Didier Dietrich</h2>
@@ -84,19 +84,19 @@ export default function Company(props) {
             </section>
 
 
-            <section id="section-partner" class="sectionthree">
-                <div class="container4">
+            <section id="section-partner" className="sectionthree">
+                <div className="container4">
                     <h1>Our partners</h1>
                     <h2>They work with us</h2>
-                    <div class="row2">
-                        <article class="col6">
-                            <div class="imge">
-                                <img class="imgg" src="/t1.jpg" width="230" height="100" alt="Tibio" typeof="foaf:Image" />
+                    <div className="row2">
+                        <article className="col6">
+                            <div className="imge">
+                                <img className="imgg" src="/t1.jpg" width="230" height="100" alt="Tibio" typeof="foaf:Image" />
                             </div>
                         </article>
-                        <article class="col-6 col-md-4 col-lg-3">
-                            <div class="img-wrapper">
-                                <img class="img-fluid d-block" src="/ham.jpg" width="751" height="167" alt="Hammelmann" typeof="foaf:Image" />
+                        <article className="col-6 col-md-4 col-lg-3">
+                            <div className="img-wrapper">
+                                <img className="img-fluid d-block" src="/ham.jpg" width="751" height="167" alt="Hammelmann" typeof="foaf:Image" />
                             </div>
                         </article>
                     </div>

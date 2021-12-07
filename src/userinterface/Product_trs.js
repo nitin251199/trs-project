@@ -103,16 +103,16 @@ export const Product_trs = (props) => {
 
 
 
-            <section class="section1">
-                <div class="container2">
-                    <div class="row3">
-                        <article class="article4">
+            <section className="section1">
+                <div className="container2">
+                    <div className="row3">
+                        <article className="article4">
                             <h1>THE RIGHT PRODUCT<br />FOR YOUR MARKET</h1>
                             <p>Through our extensive technical and operational knowhow we deliver powders and smart compounding solutions which can fulfill your customer and market requirements.</p>
-                            <p><a class="but" href="/en/intelligent-compounding" title="Intelligent Compounding">Intelligent compounding</a></p>
+                            <p><a className="but" href="/en/intelligent-compounding" title="Intelligent Compounding">Intelligent compounding</a></p>
                         </article>
-                        <article class="article5">
-                            <img class="picture"  src="/material.jpg" alt="THE RIGHT PRODUCT FOR YOUR MARKET" />
+                        <article className="article5">
+                            <img className="picture"  src="/material.jpg" alt="THE RIGHT PRODUCT FOR YOUR MARKET" />
                         </article>
                     </div>
                 </div>

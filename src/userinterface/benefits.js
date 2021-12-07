@@ -26,44 +26,44 @@ export default function Benefits(props) {
     return (<>
         <Header history={props.history} />
         <div>
-            <img src="/beni1.jpg" class="beniimage" width='100%' alt="" />
+            <img src="/beni1.jpg" className="beniimage" width='100%' alt="" />
         </div>
 
-        <section id="section-benefits" class="sectionbenefits">
-            <div class="containerbenefits">
-                <div class="rowbeni">
-                    <article class="colbeni">
+        <section id="section-benefits" className="sectionbenefits">
+            <div className="containerbenefits">
+                <div className="rowbeni">
+                    <article className="colbeni">
                         <h1>WIN</h1>
                         <h2>Circular Economy<br />Circle of Actions</h2>
                         <p>The mission of TRS is to drive the tyre recycling value chain, in partnership with public and private stakeholders, towards a profitable and sustainable circular economy. TRS solutions create value through cost-efficient eco-technologies, unique compounding intelligence and a partnership approach.&nbsp;</p>
                     </article>
-                    <article class="colbeni2">
-                        <div class="floatbeni">
+                    <article className="colbeni2">
+                        <div className="floatbeni">
                             <h3>PEP:<br />PERFORMANCE<br />ECOLOGY<br />PRICE</h3>
                         </div>
                     </article>
                 </div>
-                <div class="rowbeni2">
-                    <article class="colbeni3">
-                        <div class="wrapperbeni">
+                <div className="rowbeni2">
+                    <article className="colbeni3">
+                        <div className="wrapperbeni">
                             <p>
-                                <a class="btnbeni" href="/en/benefits/benefits-environment">Environment</a>
+                                <a className="btnbeni" href="/en/benefits/benefits-environment">Environment</a>
                             </p>
                         </div>
-                        <div class="wrapperbeni2">
+                        <div className="wrapperbeni2">
                             <p>
-                                <a class="btnbeni2" href="/en/benefits/benefits-governments">GOVERNMENTS</a>
+                                <a className="btnbeni2" href="/en/benefits/benefits-governments">GOVERNMENTS</a>
                             </p>
                         </div>
-                        <img class="imgbeni" sizes="(min-width:1200px) 1170px, (min-width:768px) 1170px, (min-width:575px) 751px, 100vw" src="/beni2.png" alt="TRS win4 - Circular Economy Circle Actions" typeof="foaf:Image" />
-                        <div class="wrapperbeni3">
+                        <img className="imgbeni" sizes="(min-width:1200px) 1170px, (min-width:768px) 1170px, (min-width:575px) 751px, 100vw" src="/beni2.png" alt="TRS win4 - Circular Economy Circle Actions" typeof="foaf:Image" />
+                        <div className="wrapperbeni3">
                             <p>
-                                <a class="btnbeni44" href="/en/benefits/benefits-goods-manufacturers-and-compounders">GOODS MANUFACTURERS<br />AND COMPOUNDERS</a>
+                                <a className="btnbeni44" href="/en/benefits/benefits-goods-manufacturers-and-compounders">GOODS MANUFACTURERS<br />AND COMPOUNDERS</a>
                             </p>
                         </div>
-                        <div class="wrapperbeni5">
+                        <div className="wrapperbeni5">
                             <p>
-                                <a class="btnbeni55" href="/en/benefits/benefits-tyre-recyclers-tyrexol-and-recycling-partners">TYRE RECYLERS<br />tyrexol<sup>TM</sup> RECYCLING<br />PARTNERS </a>
+                                <a className="btnbeni55" href="/en/benefits/benefits-tyre-recyclers-tyrexol-and-recycling-partners">TYRE RECYLERS<br />tyrexol<sup>TM</sup> RECYCLING<br />PARTNERS </a>
                             </p>
                         </div>
                     </article>
