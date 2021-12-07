@@ -1,0 +1,405 @@
+.sectionOne{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+    background: #f3f3f3;
+    padding-bottom: 5rem;
+}
+.containerr{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.containerr >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.containerr >p{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+font-size: 1rem;
+line-height: 1.2;
+color: rgb(0, 0, 0);
+text-align: left;
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 1rem;
+font-weight: 300;
+}
+
+
+.containerr >h2{
+
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+text-align: left;
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 0.5rem;
+font-family: inherit;
+line-height: 1;
+font-size: 1.3rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+color: #54a51c;
+}
+
+.sectionteam{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+}
+.container2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.container2 >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+
+}
+.container2 >h2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+
+.row1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 3rem;
+
+}
+
+.col1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgw{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.imgd{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    width: 208px;
+    aspect-ratio: auto 208 / 208;
+    box-sizing: border-box;
+    border-style: none;
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.col1 >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.750rem;
+    font-weight: 300;
+    color: #595959;
+    text-align: center;
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+
+.col1 >h2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    background: #fff;
+    font-size: 1rem;
+    color: #737373;
+    font-weight: 400;
+    text-transform: none;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    min-height: auto;
+}
+
+.sectionthree{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+}
+
+.container4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.container4 >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.container4 >h2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+.row2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 5rem;
+}
+
+.col6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.imge{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+.imgg{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    width: 230px;
+    aspect-ratio: auto 230 / 100;
+    box-sizing: border-box;
+    border-style: none;
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+}

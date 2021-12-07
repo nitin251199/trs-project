@@ -1,0 +1,482 @@
+.carousel-captions{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    display: block !important;
+    right: auto;
+    left: auto;
+    text-align: left;
+    padding: 0 !important;
+    min-height: 30%;
+    bottom: 5%;
+}
+
+
+.carousel-captions2{
+    
+
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.2;
+-webkit-font-smoothing: antialiased;
+color: #fff;
+text-align: left;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+justify-content: flex-start !important;
+
+
+}
+
+.columbn{
+    
+
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.2;
+-webkit-font-smoothing: antialiased;
+color: #fff;
+text-align: left;
+box-sizing: border-box;
+position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+flex: 0 0 41.66667%;
+max-width: 41.66667%;
+}
+
+.columbn > h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 2.7rem;
+    color: #003764;
+}
+
+
+.columbn >h2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+.columbn > p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 2rem 0 0 0;
+    color: #003764;
+}
+
+.container-caption{
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;                
+}
+
+.section-teaser{
+
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 2rem 0;
+}
+
+.section-teaser article footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.mycontainer{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.imgfluid{
+  
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: left;
+    color: #003764;
+    box-sizing: border-box;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    display: block !important;
+}
+
+.myrow{
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col33{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 2rem;
+}
+
+.col44{
+   
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 2rem;
+}
+
+.col33  >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.col44  >h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.col33>h2{
+   
+  
+    
+    
+   
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+
+.col44>h2{
+   
+  
+    
+    
+   
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+
+.col33>p{
+   
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+     box-sizing: border-box;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.col44>p{
+   
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+     box-sizing: border-box;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.trs-footer {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 3em 0 0;
+    background: #003764; 
+}
+
+.trs-footer ul.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footer-container {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.footer-row {
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row; 
+}
+
+.footer-col {
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.trs-copyright {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    background: #022644;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    margin-top: 0;
+}
+
+.trs-container {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.copyright {
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    box-sizing: border-box;
+    text-align: center !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-menu {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.25rem 1rem;
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.trs-footer ul.footer-menu > li {
+    margin-bottom: 3rem;
+}
+
+.trs-footer li {
+    display: list-item;
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+
+.trs-footer ul.footer-menu > li > a {
+    font-size: 1.375rem;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.trs-footer ul.footer-menu > li > a:hover {
+    color: #54a51c;
+    transition: 0.3s ease;
+}
+
+.trs-footer ul.footer-menu > li > ul {
+    padding: 0px;
+    margin: 2rem 0 0 0;
+    font-weight: 300;
+    list-style: none;
+    line-height: 2;
+}
+
+.trs-footer ul.footer-menu > li > ul > li > a:hover {
+    color: #54a51c;
+    transition: 0.3s ease;
+}

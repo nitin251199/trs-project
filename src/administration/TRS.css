@@ -1,0 +1,659 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.navbar {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    transition: all .5s;
+    box-shadow: 0px 0px 90px 0px rgba(0,0,0,0.1);
+    padding: 1rem 20px 0;
+}
+
+.navbar-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    max-width: 1140px;
+    padding: 0 2em;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    display: block;
+}
+
+.navbar-brand {
+    box-sizing: border-box;
+    color: #003764;
+    transition: all .2s;
+    display: inline-block;
+    padding-bottom: 0.35rem;
+    font-size: 1.25rem;
+    padding-top: 0.5em;
+    width: 288px;
+}
+
+.contact-links {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    position: static;
+    width: auto;
+    display: flex;
+    transition: all .5s;
+    justify-content: flex-end;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.btn-primary {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.75rem 1.25rem;
+    line-height: 1.2;
+    transition: color 0.15s ease-in-out;
+    color: #fff;
+    background-color: #003764;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    min-width: 13rem;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    box-sizing: border-box;
+    overflow: visible;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    display: none;
+    width: 2em;
+    height: 2em;
+    background: url(http://www.trs-ch.com/themes/trs/dist/img/icon-nav.svg) no-repeat center;
+    background-size: 1.5em;
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    line-height: 1.2;
+    color: #000;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav-item {
+    font-weight: 800;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.openCaseStudy {
+    font-weight: 800;
+    list-style: none;
+    visibility: hidden;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: all .2s;
+    color: #003764;
+    padding: 0.25rem 1rem;
+    display: block;
+}
+
+
+.section-content {
+    margin-top: -4px;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+    background: #000;
+}
+
+.section-content header {
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    min-height: 12em;
+}
+
+.section-content p {
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 2rem;
+    max-width: 80%;
+}
+
+.section-content h1 {
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.section-content h3 {
+    box-sizing: border-box;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin: 1em 0 0;
+}
+
+.section-content h2 {
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+.section-content footer {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    bottom: -5rem;
+}
+
+.section-content article footer {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-container {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.row {
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-4 {
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.btn-outline-secondary {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 0.75rem 1.25rem;
+    transition: color 0.15s ease-in-out;
+    color: #54a51c;
+    border-color: #54a51c;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    min-width: 13rem;
+    cursor: pointer;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #54a51c;
+    transition: 0.3s ease;
+}
+
+.col-img-special {
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin: auto;
+}
+
+.img-fluid {
+    box-sizing: border-box;
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: -9.8rem;
+}
+
+.section-content-2 {
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+    padding-top: 0;
+}
+
+.section-content-2 h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.section-content-2 h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+.section-content-2 p {
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.section-content-2 footer {
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-container-fluid {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-left: 14.28867%;
+    padding-top: 6rem;
+}
+
+.img-content {
+    width: 100%;
+    min-height: 1px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+
+.img-fluid-d-block {
+    color: #003764;
+    box-sizing: border-box;
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-content-3 {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 7rem 0;
+    padding-top: 0;
+}
+
+.section-content-3 h1 {
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #003764;
+}
+
+.section-content-3 h2 {
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #54a51c;
+}
+
+.section-content-3 p {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.section-content-3 footer {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-col {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    order: 12;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-left: 8.33333%;
+    padding-top: 6rem;
+}
+
+.section-row-2 {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+}
+
+.section-container-fluid-2 {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-content-2 {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 1px;
+    order: 2;
+    flex: 0 0 50%;
+    max-width: 50%;
+    z-index: 1 !important;
+    position: relative;
+    padding: 0;
+}
+
+.img-fluid-d-block-2 {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    border-style: none;
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+    margin-top: -15%;
+}
+
+.trs-footer {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 3em 0 0;
+    background: #003764; 
+}
+
+.trs-footer ul.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footer-container {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.footer-row {
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row; 
+}
+
+.footer-col {
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.trs-copyright {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    background: #022644;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    margin-top: 0;
+}
+
+.trs-container {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 0 2em;
+}
+
+.copyright {
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.750rem;
+    box-sizing: border-box;
+    text-align: center !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-menu {
+    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.25rem 1rem;
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.trs-footer ul.footer-menu > li {
+    margin-bottom: 3rem;
+}
+
+.trs-footer li {
+    display: list-item;
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+
+.trs-footer ul.footer-menu > li > a {
+    font-size: 1.375rem;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.trs-footer ul.footer-menu > li > a:hover {
+    color: #54a51c;
+    transition: 0.3s ease;
+}
+
+.trs-footer ul.footer-menu > li > ul {
+    padding: 0px;
+    margin: 2rem 0 0 0;
+    font-weight: 300;
+    list-style: none;
+    line-height: 2;
+}
+
+.trs-footer ul.footer-menu > li > ul > li > a:hover {
+    color: #54a51c;
+    transition: 0.3s ease;
+}
