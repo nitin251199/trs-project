@@ -130,7 +130,7 @@ const TRS_Register = (props) => {
                     </Grid>
                     
                     <Grid item xs={12} style={{ display: 'flex', justifyContent: 'end', alignItems: 'end', margin: 30 }}>
-                        <button onClick={() => handleEnquire()} className="button">Enquire Now</button>
+                        <button onClick={() => handleEnquire()} className="enq-button">Enquire Now</button>
                     </Grid>
                 </Grid>
 

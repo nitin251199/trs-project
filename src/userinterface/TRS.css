@@ -23,10 +23,9 @@
 }
 
 .navbar-brand {
-    box-sizing: border-box;
     color: #003764;
     transition: all .2s;
-    display: inline-block;
+    display: flex;
     padding-bottom: 0.35rem;
     font-size: 1.25rem;
     padding-top: 0.5em;
@@ -104,6 +103,7 @@
     box-sizing: border-box;
     text-transform: uppercase;
     position: relative;
+    cursor: pointer;
 }
 
 

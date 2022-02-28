@@ -60,9 +60,9 @@ export const Add_Products = () => {
             var result = await postDataAndImage("product/insertproduct", formData, config);
             if (result) {
               Swal.fire({
-                title: 'GlassKart.com',
+                title: 'psquare.com',
                 text: 'submitted ',
-                imageUrl: '/glasskart.png',
+                imageUrl: '/logo.png',
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -70,9 +70,9 @@ export const Add_Products = () => {
             }
             else {
               Swal.fire({
-                title: 'GlassKart.com',
+                title: 'psquare.com',
                 text: 'Error ',
-                imageUrl: '/glasskart.png',
+                imageUrl: '/logo.png',
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -179,7 +179,7 @@ export const Add_Products = () => {
         </Grid>
 
          <Grid item md={12}>
-      <Button variant="contained" color="primary" style={{background:"#22a6b3" }} fullWidth onClick={()=>handleSubmit()} >Submit category</Button>
+      <Button variant="contained" color="primary" style={{background:"#22a6b3" }} fullWidth onClick={()=>handleSubmit()} >Submit product</Button>
       </Grid>
        </Grid>
        </Paper>

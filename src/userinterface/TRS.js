@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Grid, AppBar, Toolbar } from '@material-ui/core'
 import './TRS.css'
 import Slider from 'react-slick'
@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { TRS_Header } from './TRS_Header';
 import Header from './header';
 import Footer from './footer';
+import "aos/dist/aos.css"
+import Aos from 'aos';
 
 export const TRS = (props) => {
 
@@ -21,6 +23,13 @@ export const TRS = (props) => {
         slidesToShow: 1,
     };
 
+    useEffect(function(){
+
+        Aos.init({
+            duration:400
+          });
+    },[])
+
 
     return (
         <div>
@@ -29,19 +38,16 @@ export const TRS = (props) => {
             <div>
                 <Slider {...settings}>
                     <div>
-                        <img src="/p1.jpg" width='100%' alt="" />
+                        <img src="/slider1.jpg" width='100%' alt="" />
                     </div>
                     <div>
-                        <img src="/p2.jpg" width='100%' alt="" />
+                        <img src="/slider2.jpg" width='100%' alt="" />
                     </div>
                     <div>
-                        <img src="/p3.jpg" width='100%' alt="" />
+                        <img src="/slider3.jpg" width='100%' alt="" />
                     </div>
                     <div>
-                        <img src="/p4.jpg" width='100%' alt="" />
-                    </div>
-                    <div>
-                        <img src="/p5.jpg" width='100%' alt="" />
+                        <img src="/slider4.jpg" width='100%' alt="" />
                     </div>
                 </Slider>
             </div>
@@ -58,7 +64,7 @@ export const TRS = (props) => {
                             <h2>Tyre Recycling Solutions</h2>
                             <p>TRS proprietary technologies give Recyclers optimal value creating opportunities. Gain market value and tap new profit channels together as our Partner. Increase your profitability by partnering with TRS.</p>
                             <footer>
-                                <span className="btn-outline-secondary">Technology</span>
+                                <span className="btn-outline-secondary" onClick={()=>props.history.push('/technology')}>Technology</span>
                             </footer>
                         </article>
                         <article className="col-img-special">
@@ -89,7 +95,7 @@ export const TRS = (props) => {
                             <p>TRS drives the tyre recycling value chain, in partnership with public&nbsp;
                                 <br />and private stakeholders, towards a profitable and sustainable circular economy. TRS solutions create value through cost-efficient eco-technologies, unique compounding intelligence and a partnership approach. Join us.</p>
                             <footer>
-                                <span className="btn-outline-secondary">BENEFITS</span>
+                                <span className="btn-outline-secondary" onClick={()=>props.history.push('/benefits')}>BENEFITS</span>
                             </footer>
                         </article>
                         <article className="img-content">
@@ -105,7 +111,7 @@ export const TRS = (props) => {
             <section className="section-content-3">
                 <div className="section-container-fluid-2">
                     <div className="section-row-2">
-                        <article className="img-content-2">
+                        <article  className="img-content-2">
                             <img className="img-fluid-d-block-2" src="/p8.jpg" alt=""/>
                         </article>
                         <article className="section-col">
@@ -115,7 +121,7 @@ export const TRS = (props) => {
                             </h2>
                             <p>TRS Intelligent Compounding© provides optimal sustainable innovation to Partners through tailored smart solutions. By unlocking application domains through Swiss engineering, biotechnology and applied science, TRS is a driving force for higher-quality rubber and application specific compounds.</p>
                             <footer>
-                                <span className="btn-outline-secondary">Intelligent Compounding</span>
+                                <span className="btn-outline-secondary" onClick={()=>props.history.push('/intelligent-compounding')}>Intelligent Compounding</span>
                             </footer>
                         </article>
                     </div>

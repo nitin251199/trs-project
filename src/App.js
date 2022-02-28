@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import Header from './userinterface/header';
+import { ToastContainer } from 'react-toastify';
 import AddCategories from './administration/AddCategories'
 import DisplayAllCategories from './administration/DisplayAllCategories';
 import Subcategory from "./administration/subcategory"
@@ -15,6 +16,8 @@ import Benefits from './userinterface/benefits';
 import Company from './userinterface/company';
 import { Product_trs } from './userinterface/Product_trs';
 import { Add_Products } from './administration/Add_Products';
+import Dashboard from './administration/Dashboard';
+import AddHomepage from './administration/AddHomepage';
 
 function App(props) {
   return (
@@ -34,9 +37,11 @@ function App(props) {
         <Route component={Company} path="/company" props={props.history} />
         <Route component={Product_trs} path="/product" props={props.history} />
         <Route component={Add_Products} path="/addproducts" props={props.history} />
+        <Route component={Dashboard} path="/dashboard" props={props.history} />
+        <Route component={AddHomepage} path="/addhomepage" props={props.history} />
         
       </Router>
-
+<ToastContainer />
     </>
   );
 }

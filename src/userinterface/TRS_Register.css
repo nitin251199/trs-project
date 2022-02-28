@@ -33,7 +33,7 @@
     color: #003764;
 }
 
-button {
+.enq-button {
     --color: #003764;
     font-family: inherit;
     display: inline-block;
@@ -52,7 +52,7 @@ button {
     color: var(--color);
    }
    
-   button:before {
+   .enq-button:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -62,22 +62,22 @@ button {
     border-radius: 50%;
    }
    
-   button:hover {
+   .enq-button:hover {
     color: #fff;
    }
    
-   button:before {
+   .enq-button:before {
     top: 100%;
     left: 100%;
     transition: all .3s;
    }
    
-   button:hover:before {
+   .enq-button:hover:before {
     top: -30px;
     left: -30px;
    }
    
-   button:active:before {
+   .enq-button:active:before {
     background: #003764;
     transition: background 0s;
    }

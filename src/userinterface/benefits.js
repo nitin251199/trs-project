@@ -46,25 +46,25 @@ export default function Benefits(props) {
                 <div className="rowbeni2">
                     <article className="colbeni3">
                         <div className="wrapperbeni">
-                            <p>
-                                <a className="btnbeni" href="/en/benefits/benefits-environment">Environment</a>
-                            </p>
+                            <span>
+                                <p className="btn-outline-secondary" >Environment</p>
+                            </span>
                         </div>
                         <div className="wrapperbeni2">
-                            <p>
-                                <a className="btnbeni2" href="/en/benefits/benefits-governments">GOVERNMENTS</a>
-                            </p>
+                            <span>
+                                <p className="btn-outline-secondary" >GOVERNMENTS</p>
+                            </span>
                         </div>
-                        <img className="imgbeni" sizes="(min-width:1200px) 1170px, (min-width:768px) 1170px, (min-width:575px) 751px, 100vw" src="/beni2.png" alt="TRS win4 - Circular Economy Circle Actions" typeof="foaf:Image" />
+                        <img className="fluid-img"  src="/beni2.png" alt="TRS win4 - Circular Economy Circle Actions" />
                         <div className="wrapperbeni3">
-                            <p>
-                                <a className="btnbeni44" href="/en/benefits/benefits-goods-manufacturers-and-compounders">GOODS MANUFACTURERS<br />AND COMPOUNDERS</a>
-                            </p>
+                            <span>
+                                <p className="btn-outline-secondary" >GOODS MANUFACTURERS<br />AND COMPOUNDERS</p>
+                            </span>
                         </div>
                         <div className="wrapperbeni5">
-                            <p>
-                                <a className="btnbeni55" href="/en/benefits/benefits-tyre-recyclers-tyrexol-and-recycling-partners">TYRE RECYLERS<br />tyrexol<sup>TM</sup> RECYCLING<br />PARTNERS </a>
-                            </p>
+                            <span>
+                                <p className="btn-outline-secondary" >TYRE RECYLERS<br />tyrexol<sup>TM</sup> RECYCLING<br />PARTNERS </p>
+                            </span>
                         </div>
                     </article>
                 </div>

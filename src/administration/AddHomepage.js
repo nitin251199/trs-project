@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid,Button,TextField,Avatar } from '@material-ui/core'
 import Swal from 'sweetalert2'
-import { postDataAndImage } from "../FetchNodeService";
-import { isEmpty,checkError } from "../Checks";
+import { getData, postDataAndImage } from "../FetchNodeService";
+import { isEmpty,checkError } from "../Checks"
 import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles((theme) => ({
@@ -11,16 +11,16 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      padding:20
+    //   padding:20
     },
     subdiv: {
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      width: '600px',
+      width: 'auto',
       height: 'auto',
-      marginTop:10,
+    //   marginTop:10,
       background:'#ecf0f1',
       padding:15,
       borderRadius:5,
@@ -34,36 +34,38 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-  export default function AddCategories(props) {
-    const [categoryName,setcategoryName] = useState("")
-    const [icon,setIcon] = useState({filename:"",bytes:""})
+  export default function AddHomepage(props) {
+    const [description,setDescription] = useState("")
+    const [sliderpic,setSliderpic] = useState({filename:"",bytes:""})
+    
 
     const classes = useStyles();
 
     const handlePicture = (event)=>{
-        setIcon({
+        setSliderpic({
           filename:URL.createObjectURL(event.target.files[0]),
           bytes:event.target.files[0]
         })
       }
 
+
       const handleSubmit = async () =>{
       var err = false;
-      if(isEmpty(categoryName)){
+      if(isEmpty(description)){
         err = true;
-        checkError("category Name should not be empty");
+        checkError("description should not be empty");
         
       }
-      if(isEmpty(icon.filename)){
+      if(isEmpty(sliderpic.filename)){
         err = true;
-        checkError("Please Add category Picture..."); 
+        checkError("Please Add Slider Picture..."); 
       }
       if(!err){
         var formData = new FormData();
-        formData.append("categoryname",categoryName)
-        formData.append("icon",icon.bytes)
+        formData.append("description",description)
+        formData.append("sliderpic",sliderpic.bytes)
         var config = { headers: { "content-type": "multipart/form-data" } };
-          var result = await postDataAndImage("categories/insertcategories", formData, config);
+          var result = await postDataAndImage("mainpage/insertmainslider", formData, config);
           if (result) {
             Swal.fire({
               title: 'psquare.com',
@@ -114,16 +116,16 @@ const useStyles = makeStyles((theme) => ({
                 }}
               >
                 <span>
-                  <img alt="" src="/glasskart.png" width="40" />
+                  <img alt="" src="/logo.png" width="40" />
                 </span>{" "}
-                <span>Add categories</span>
+                <span>Add Slider Pictures</span>
               </div>
             </div>
             </Grid>
          
         <Grid item xs={12}>
-          <TextField variant="outlined" fullWidth label="Category Name"
-          onChange={(event)=>setcategoryName(event.target.value)}
+          <TextField variant="outlined" fullWidth label="Description"
+          onChange={(event)=>setDescription(event.target.value)}
           />
         </Grid>
 
@@ -137,18 +139,18 @@ const useStyles = makeStyles((theme) => ({
         onChange={(event)=>handlePicture(event)}
       />
       <label htmlFor="contained-button-file">
-        <Button variant="contained" color="primary" style={{background:"#22a6b3"}} component="span">
+        <Button variant="contained" color="primary" component="span">
           Upload
         </Button>
       </label>
         </Grid>
 
         <Grid item xs={6} style={{display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
-        <Avatar alt="Remy Sharp" src={icon.filename} variant="rounded" className={classes.large} />
+        <Avatar alt="slider pic" src={sliderpic.filename} variant="rounded" className={classes.large} />
         </Grid>
 
          <Grid item md={12}>
-      <Button variant="contained" color="primary" style={{background:"#22a6b3" }} fullWidth onClick={()=>handleSubmit()} >Submit category</Button>
+      <Button variant="contained" color="primary" fullWidth onClick={()=>handleSubmit()} >Submit Slider</Button>
       </Grid>
        </Grid>
        </Paper>

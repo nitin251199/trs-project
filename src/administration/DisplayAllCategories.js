@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
       alignItems: 'center',
     },
     subdiv: {
-      width: 1200,
+      width: "auto",
       height: "auto",
       background: "#f1f2f6",
       marginTop: 5,
@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
                 Swal.fire({
                   title: 'GlassKart.com',
                   text: 'Your Picture has been updated successfully...',
-                  imageUrl: '/glasskart.png',
+                  imageUrl: '/logo.png',
                   imageWidth: 400,
                   imageHeight: 200,
                   imageAlt: 'Custom image',
@@ -192,7 +192,7 @@ const useStyles = makeStyles((theme) => ({
           }
           
               const handleClickOpen = (data) => {
-                setCategoryId(data.categoriesid)
+                setCategoryId(data.categoryid)
                 setCategoryName(data.categoriesname)
                 setIcon({ filename: `${ServerURL}/images/${data.icon}`, bytes: "" })
                 setOpen(true);
@@ -300,7 +300,7 @@ function SimpleAction() {
           AddCategories
         </Button>}
         columns={[
-          { title: 'Id', field: 'categoriesid' },
+          { title: 'Id', field: 'categoryid' },
           { title: 'Category Name',
           render: rowData =><div><b>{rowData.categoriesname}</b></div>},
            {

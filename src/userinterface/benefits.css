@@ -16,17 +16,11 @@
 }
 
 .beniimage {
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    font-family: "Trade Gothic®️ Next W01",Arial,sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
     perspective: 1000px;
     backface-visibility: hidden;
     line-height: 1.2;
     color: #000;
     text-align: left;
-    -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     border-style: none;
     max-width: 100%;
@@ -36,15 +30,8 @@
 }
 
 .containerbenefits{
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    font-family: "Trade Gothic® Next W01", Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.2;
     color: rgb(0, 0, 0);
     text-align: left;
-    -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     width: 100%;
     margin-right: auto;
@@ -237,9 +224,14 @@
     font-weight: 300;
     line-height: 1.2;
     color: rgb(0, 0, 0);
-    text-align: left;
     -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    right: auto;
+    bottom: auto;  
 }
 
 .wrapperbeni >p{
@@ -287,18 +279,19 @@
     text-align: left;
 }
 .wrapperbeni2{
-
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
     font-family: "Trade Gothic® Next W01", Arial, sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.2;
     color: rgb(0, 0, 0);
-    text-align: left;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-
+    text-align: left;
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    left: auto;
+    bottom: auto;
 }
 
 .btnbeni2{
@@ -355,9 +348,14 @@
     font-weight: 300;
     line-height: 1.2;
     color: rgb(0, 0, 0);
-    text-align: left;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: auto;
+    bottom: -2rem;
 }
 
 .wrapperbeni3 >p{
@@ -389,7 +387,7 @@
     padding: 0.75rem 1.25rem;
     line-height: 1.2;
     border-radius: 0;
-    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out;
     color: #54a51c;
     background-color: transparent;
     background-image: none;
@@ -403,16 +401,19 @@
 }
 
 .wrapperbeni5{
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
     font-family: "Trade Gothic® Next W01", Arial, sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.2;
     color: rgb(0, 0, 0);
-    text-align: left;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    top: auto;
+    right: 0;
+    left: auto;
+    bottom: -2rem;
 }
 
 .btnbeni55{

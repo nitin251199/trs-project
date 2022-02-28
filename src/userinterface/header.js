@@ -33,7 +33,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import './TRS.css'
 import { LocalMall, ShoppingBasket } from '@material-ui/icons';
-
+import "aos/dist/aos.css"
+import Aos from 'aos';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -129,6 +130,14 @@ export default function Header(props) {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
+  useEffect(function(){
+
+    Aos.init({
+      easing:     'ease',
+      duration:   100,
+      delay:      0
+      });
+},[])
 
   /////////////////////////////////////////////////////
   const fetchcategory = async () => {
@@ -165,9 +174,15 @@ export default function Header(props) {
   const fillcategory = () => {
     return category.map((item) => {
 
-      return (<li onMouseEnter={(event) => handleMyMenuOpen(event)} className="nav-item" value={item.categoryid} style={{ padding: '0.75rem 0.7em', color: '#003764', fontWeight: 800 }}>
-        <span onClick={() => handleRender(item.categoriesname.replace(/ /g, "-").toLowerCase())}>{item.categoriesname}</span>
-      </li>)
+      {
+        return (
+            <li className="nav-item" value={item.categoryid} style={{ padding: '0.75rem 0.7em', color: '#003764', fontWeight: 800 }}>
+              <span onClick={() => handleRender(item.categoriesname.replace(/ /g, "-").toLowerCase())}>
+                {item.categoriesname}
+              </span>
+            </li>
+        )
+      }
     })
   };
 
@@ -309,44 +324,25 @@ export default function Header(props) {
 
     <div>
       {scrolled ?
-        //  <AppBar    elevation='5'  color='#ffff' style={{display:'flex',height:40,border:10,borderColor:"black",position:'static',top:0}}>
-
-
-
-        //  <div  style={{display:'flex', justifyContent:'end',marginTop:0,alignItems:'center'}}>
-        //          {fillcategory()}
-        //        </div>
-
-
-
-        //     </AppBar>
-
         <div className={classes.grow}>
+          <AppBar position="fixed" color="#fff" data-aos='fade-down'>
+            <Toolbar>
+              <nav>
+                <div style={{ display: 'flex', justifyContent: 'right', alignItems: 'center', }}>
+                  <span className="navbar-brand" style={{ display: 'flex', justifyContent: 'right', alignItems: 'center', marginInline: 30, padding: 10 }} >
+                    <img src="/logo.png" alt="TRS - Tyre Recycling Solutions" width="25%" onClick={() => props.history.push('/home')}/>
+                  </span>
 
-          <nav className="navbar">
-            <div className="navbar-container">
-              <a className="navbar-brand" style={{ float: 'left' }} href="http://www.trs-ch.com/en" >
-                <img src="/logo-trs.svg" alt="TRS - Tyre Recycling Solutions" />
-              </a>
-              {/* <div className="contact-links">
-                         <a href="/en/products/use-tyrexol" className="btn-primary" role="button" aria-pressed="true">
-                             USE Tyrexol
-                             <sup>TM</sup> POWDER
-                         </a>
-                         &nbsp;&nbsp;
-                         <a href="/en/company/become-recycling-partner" className="btn-primary" role="button" aria-pressed="true">
-                             BECOME A RECYCLING PARTNER
-                         </a>
-                     </div> */}
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#trs-menu" aria-controls="trs-menu" aria-expanded="false" aria-label="Toggle navigation">
-              </button>
-              <div className="navbar-collapse" id="trs-menu">
-                <ul className="menu">
-                  {fillcategory()}
-                </ul>
-              </div>
-            </div>
-          </nav></div>
+                  <div id="trs-menu">
+                    <ul className="menu">
+                      {fillcategory()}
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </Toolbar>
+          </AppBar>
+        </div>
 
 
 
@@ -358,7 +354,7 @@ export default function Header(props) {
           <nav className="navbar">
             <div className="navbar-container">
               <span className="navbar-brand" style={{ float: 'left' }} >
-                <img src="/logo-trs.svg" alt="TRS - Tyre Recycling Solutions" />
+                <img src="/logo.png" alt="TRS - Tyre Recycling Solutions" width="35%" onClick={() => props.history.push('/home')}/>
               </span>
               <div className="contact-links">
                 <span className="btn-primary" role="button" aria-pressed="true">

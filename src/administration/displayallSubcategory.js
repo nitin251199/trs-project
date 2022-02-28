@@ -121,9 +121,9 @@ const useStyles = makeStyles((theme) => ({
               if(result)
               {
                 Swal.fire({
-                  title: 'GlassKart.com',
+                  title: 'psquare.com',
                   text: 'Your Picture has been updated successfully...',
-                  imageUrl: '/glasskart.png',
+                  imageUrl: '/logo.png',
                   imageWidth: 400,
                   imageHeight: 200,
                   imageAlt: 'Custom image',
@@ -132,9 +132,9 @@ const useStyles = makeStyles((theme) => ({
               else
             {
               Swal.fire({
-                title: 'GlassKart.com',
+                title: 'psquare.com',
                 text: 'Error in updating the picture...',
-                imageUrl: '/glasskart.png',
+                imageUrl: '/logo.png',
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -171,9 +171,9 @@ const useStyles = makeStyles((theme) => ({
               if(result)
               {
                 Swal.fire({
-                  title: 'GlassKart.com',
+                  title: 'psquare.com',
                   text: 'Your Record has been updated successfully...',
-                  imageUrl: '/glasskart.png',
+                  imageUrl: '/logo.png',
                   imageWidth: 400,
                   imageHeight: 200,
                   imageAlt: 'Custom image',
@@ -182,9 +182,9 @@ const useStyles = makeStyles((theme) => ({
               else
             {
               Swal.fire({
-                title: 'GlassKart.com',
+                title: 'psquare.com',
                 text: 'Error in updating the record...',
-                imageUrl: '/glasskart.png',
+                imageUrl: '/logo.png',
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -199,9 +199,9 @@ const useStyles = makeStyles((theme) => ({
           const handleDeleteSubcategory = async (data) => {
             var body = { subcategoryid: data.subcategoryid };
             Swal.fire({
-              imageUrl: "/glasskart.png",
+              imageUrl: "/logo.png",
               imageWidth: 200,
-              title: "GlassKart.com",
+              title: "psquare.com",
               text: "Are u Sure to Delete Selected Record...",
               showCancelButton: true,
               confirmButtonText: "Yes, delete it!",
